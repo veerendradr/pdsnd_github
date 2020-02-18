@@ -34,7 +34,7 @@ def get_filters():
         city = input("Please enter the cityname that you would like to explore bikeshare data: ").lower()
         #check the selection is between 1 and 3. If not, ask again for the valid city
         if city in CITY_DATA: 
-            # set valid_city to true to exit from while loop 
+            # if city found, exit while loop  
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
