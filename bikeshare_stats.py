@@ -291,7 +291,7 @@ def main():
                     break
             # check if user wants to see statistics for another set of inputs
             restart = input('\nWould you like to restart? Enter yes or no.\n')
-            # if yes, loop again. otherwise exit
+            # if yes,  ask user again for the inputs. otherwise exit
             if restart.lower() != 'yes':
                 break
         else:
