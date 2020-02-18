@@ -34,7 +34,7 @@ def get_filters():
         city = input("Please enter the cityname that you would like to explore bikeshare data: ").lower()
         #check the selection is between 1 and 3. If not, ask again for the valid city
         if city in CITY_DATA: 
-            # set valid_city to true to exit from while loop 
+            # if city found, exit while loop  
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -45,7 +45,7 @@ def get_filters():
         valid_month = month in months
         # check for valid month. If not ask again for valid month
         if not valid_month:
-            print("The input does not match, Try again")
+            print("Not a valid month, Try again")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while not valid_day:  
@@ -291,7 +291,7 @@ def main():
                     break
             # check if user wants to see statistics for another set of inputs
             restart = input('\nWould you like to restart? Enter yes or no.\n')
-            # if yes, loop again. otherwise exit
+            # if yes,  ask user again for the inputs. otherwise exit
             if restart.lower() != 'yes':
                 break
         else:
