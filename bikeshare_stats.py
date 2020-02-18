@@ -45,7 +45,7 @@ def get_filters():
         valid_month = month in months
         # check for valid month. If not ask again for valid month
         if not valid_month:
-            print("The input does not match, Try again")
+            print("Not a valid month, Try again")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while not valid_day:  
