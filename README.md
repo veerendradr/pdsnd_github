@@ -5,7 +5,7 @@ Explore US Bikeshare Data
 ### Description
 Bikeshare statistics for the given US state. For example: New York City, Washington and Chicago
 ### Files used
-bikeshare.py --  python program developed to provide statistics for the given US state.
+bikeshare.py --  python program developed to provide statistics on travel time, stations and users for the given US state.
 chicago.csv
 washington.csv
 new_york_city.csv
